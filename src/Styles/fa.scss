@@ -1,0 +1,164 @@
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Poppins:regular,bold,italic&subset=latin,latin-ext');
+
+h1,h2,h3,h4,h5
+{
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+}
+
+h1
+{
+    padding: 0px;
+    margin: 0;
+}
+
+input[type=tel]
+{
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    padding: 0!important;
+    margin: 5px;
+    text-align: center;
+    font-weight: 900;
+}
+
+input[type=email]
+{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.fa_form
+{
+    .twoFa_container
+    {
+            height: 60%;
+    }
+
+    select 
+    {
+        padding: 15px;
+        border: 1px solid $valid_text;
+        border-radius: 15px;
+        background-color: $phantom_text;
+        color: $valid_text;
+        margin-top: 20px;
+        font-weight: bold;
+        width: 70%;
+        margin: 20px auto 0px;
+        letter-spacing: 2px;
+    }
+
+
+    label
+    {
+        margin: 0 auto;
+        display: block;
+        padding: 0;
+        //border: 1px solid black;
+        width: 100%;
+
+        .submitButton
+        {
+            width: 80%;
+            margin: 30px auto;
+            display: block;
+            padding: 15px;
+            
+        }
+
+        .submitButton:hover
+        {
+            transform: scale(1.1);
+            background-color: $phantom_text;
+            transition: transform 1s,background-color 1s;
+        }
+
+        i 
+        {
+            left: 25px
+        }
+
+
+        i.lni-key
+        {
+            border-radius: 50%;
+            border: 1px solid whitesmoke;
+            color: whitesmoke;
+            margin: 10px 40%;
+        }
+
+        i:hover 
+        {
+            transform: scale(1.2);
+            background-color: $darker1;
+            transition: background-color 1s, transform 1s;
+            color: $focus_text
+        }
+
+        div
+        {
+           display: flex;
+           justify-content: center;
+            margin: 0 auto;
+           // border: 1px solid red;
+
+           i 
+           {
+            position: static;
+            border: 1px solid $valid_text;
+            border-radius: 50%;
+            padding: 20px;
+            color: white;
+            background-color: $phantom_text;
+           }
+
+           i:hover 
+           {
+            transform: scale(1.2);
+            transition: transform 1s, font-weight 1s;
+            font-weight: bolder;
+            background-color: $darker1;
+           }
+        }
+    }
+
+    .btn_container
+    {
+        margin-top: 20px;
+        width: 90%;
+       padding: 5px;
+       display: flex;
+       justify-content: space-between;
+
+        input 
+        {
+           width: 48%;
+           padding: 15px;
+            box-shadow: 0!important;
+        }
+
+        input[type=submit]
+        {
+            background-color: $valid_text!important;
+        }
+
+        input:hover
+        {
+            transform: scale(1.1);
+            font-weight: 600;
+            transition: transform 1.5s, font-weight 1.5s;
+        }
+    }
+    input[type=email]
+    {
+
+    }
+}
