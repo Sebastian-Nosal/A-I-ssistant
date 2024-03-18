@@ -1,0 +1,63 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model TwoFA{
+  User User @relation(fields: [TwoFA_id],references: [user_id])
+  user_id Int @unique
+  TwoFA_id Int @unique @id @default(autoincrement())
+  method Int
+  value String @db.LongText
+}
+
+model User {
+  user_id  Int        @id @default(autoincrement())
+  login    String     @unique
+  email    String     @unique
+  password String
+  email_verified Boolean @default(false)
+  Request  Request[]
+  Response Response[]
+  TwoFA    TwoFA?  
+}
+
+model Bot {
+  bot_id   Int        @id @unique @default(autoincrement())
+  api_url  String     @unique
+  bot_name String     @unique
+  Response Response[]
+  Request  Request[]
+}
+
+model Request {
+  request_id Int       @id @default(autoincrement())
+  Bot        Bot       @relation(fields: [bot_id], references: [bot_id])
+  bot_id     Int
+  body       String
+  user_id    Int
+  User       User      @relation(fields: [user_id], references: [user_id])
+  Response   Response?
+}
+
+model Response {
+  response_id Int     @id @default(autoincrement())
+  user_id     Int
+  User        User    @relation(fields: [user_id], references: [user_id])
+  Bot         Bot     @relation(fields: [bot_id], references: [bot_id])
+  req_id      Int     @unique
+  Request     Request @relation(fields: [req_id], references: [request_id])
+  bot_id      Int
+}
+
+model Language {
+  language_id   Int    @id @unique @default(autoincrement())
+  code_alpha2   String @db.VarChar(2)
+  code_alpha3   String @db.VarChar(3)
+  language_file String
+  flag_file     String
+}

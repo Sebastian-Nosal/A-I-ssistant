@@ -1,0 +1,33 @@
+{
+    "login": {
+        "login": "Podaj Login",
+        "password": "Podaj Hasło",
+        "button_register": "Rejestracja",
+        "button_submit": "Zaloguj",
+        "password_forgot": "Zapomniałem Hasła",
+        "password_incorrect": "Niepoprawne Hasło",
+        "wrong_chars": "Pola zawierają niedozwolone znaki"
+    },
+    "register": {
+        "login": "Podaj Login",
+        "email": "Podaj E-Mail",
+        "password": "Podaj Hasło",
+        "password_repeat": "Powtórz Hasło",
+        "button_login": "Logowanie",
+        "button_submit": "Zarejestruj",
+        "password_forgot": "Zapomniałem Hasła",
+        "password_incorrect": "Niepoprawne Hasło",
+        "wrong_chars": "Pola zawierają niedozwolone znaki",
+        "too_short": "Hasło jest zbyt krótkie",
+        "exist": "Konto o padanym loginie już istnieje"
+    },
+    "2fa": {
+        "header": "Zabezpiecz lepiej swoje konto.",
+        "text1": "Włącz dwustopniową weryfikację",
+        "methods": "Dostępne metody to: ",
+        "u2f": "Klucz sprzętowy U2F",
+        "email": "Mail potwierdzający",
+        "PIN": "4 znakowy kod PIN",
+        "submit": "Wyślij"
+    }
+}

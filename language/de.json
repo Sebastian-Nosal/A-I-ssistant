@@ -1,0 +1,32 @@
+{
+    "login": {
+        "login": "Geben Sie den Benutzernamen ein",
+        "password": "Passwort eingeben",
+        "button_register": "Registrieren",
+        "button_submit": "Einloggen",
+        "password_forgot": "Passwort vergessen",
+        "password_incorrect": "Falsches Passwort",
+        "wrong_chars": "Felder enthalten ungültige Zeichen"
+    },
+    "register": {
+        "login": "Geben Sie den Benutzernamen ein",
+        "email": "Geben Sie den Email ein",
+        "password": "Passwort eingeben",
+        "password_repeat": "Passwort wiederholen",
+        "button_login": "Loggen",
+        "button_submit": "Registrieren",
+        "password_forgot": "Passwort vergessen",
+        "password_incorrect": "Falsches Passwort",
+        "wrong_chars": "Felder enthalten ungültige Zeichen",
+        "too_short": "Passwort ist zu kurz",
+        "exist": "Ein Konto mit diesem Login existiert bereits"
+    },
+    "2fa": {
+        "header": "Erhöhen Sie die Sicherheit Ihres Kontos.",
+        "text1": "Aktivieren Sie die Zwei-Faktor-Authentifizierung",
+        "methods": "Verfügbare Methoden umfassen: ",
+        "u2f": "U2F-Hardware-Schlüssel",
+        "email": "Bestätigungs-E-Mail",
+        "PIN": "4-stelliger PIN-Code"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "country": {
+        "pl": ["pl","poland","polska","polsk","pol"],
+        "en": ["en","gb","england","english","anglia"]
+    },
+    "language": {
+        "pl": ["polish","polsku","polski","polskim"],
+        "en": ["english","angielsku","angielski"]
+    },
+    "category":{
+        "business":["business","biznes","money","invest","inwestycje","pieniądze","finanse","rachunki","akcje","obligacje"],
+        "crime":["murder","morderstwo","crime","przestępstwo","zbrodnia","investig","policja","police"],
+        "education":["school","education","szkoła","edukacj","nauczan","nauczyciel","teach"],
+        "entertaiment":["series","film","star","serial","movie","gwiazda","rozryw"],
+        "environment":["ekolog","ecolog","eco","forests","lasy","fire","pożar","natur"],
+        "food":["żywność","food","przepis","recipe","jedz","eat"],
+        "health":["zdrow","health","care","opieka","szpital","hospital","choroba","chory","sick","ill"],
+        "politics":["polit","politic","sejm","senat","prezydent","parlament","parliament","party","partia"],
+        "science":["nauka","odkrycie","eksperyment","discov","experiment","naukowcy","scien"],
+        "sports":["ball","piłka","sport","reprezentacja","mecz","match","cup","puchar"],
+        "technology":["techno","wynalazek","odkrycie","invention","new tech","nowe tech"],
+        "top":["najważnie","important","ważne","top"]
+    }
+}
+

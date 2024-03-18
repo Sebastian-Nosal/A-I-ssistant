@@ -1,0 +1,32 @@
+{
+    "login": {
+        "login": "Enter Login",
+        "password": "Enter Password",
+        "button_register": "Register",
+        "button_submit": "Log In",
+        "password_forgot": "Forgot Password",
+        "password_incorrect": "Incorrect Password",
+        "wrong_chars": "Fields contain invalid characters"
+    },
+    "register": {
+        "login": "Enter Login",
+        "password": "Enter Password",
+        "email": "Enter E-Mail",
+        "password_repeat": "Repeat Password",
+        "button_login": "Login",
+        "button_submit": "Register",
+        "password_forgot": "Forgot Password",
+        "password_incorrect": "Incorrect Password",
+        "wrong_chars": "Fields contain invalid characters",
+        "too_short": "Password is too short",
+        "exist": "An account with this login already exists"
+    },
+    "2fa": {
+        "header": "Enhance your account security.",
+        "text1": "Enable two-factor authentication",
+        "methods": "Available methods include: ",
+        "u2f": "U2F hardware key",
+        "email": "Confirmation email",
+        "PIN": "4-digit PIN code"
+    }
+}

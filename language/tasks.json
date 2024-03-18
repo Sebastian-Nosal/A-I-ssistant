@@ -1,0 +1,10 @@
+{
+    "help": ["pomoc","help","pomóż","instrukcja","manual","handbook"],
+    "lim": ["granic","lim","limes","limit"],
+    "equasion":["równanie","równość","rozwiąż","solve","equation","equality"],
+    "domain":["dziedzin","domain"],
+    "deriverate":["pochodna","'","deriverate","prim","prime"],
+    "graph":["wykres","graph","narysuj","draw","chart"],
+    "monotonicy":["monoticz","monotoni","growing","rosn","malej","decreas","increase"],
+    "zeros": ["zerowe","zero","pierwiastek"]
+}
